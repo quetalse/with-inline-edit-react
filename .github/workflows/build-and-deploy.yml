@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: Install and Build
-        run: npm install && npm run build
+        run: npm install 
 
       - name: ls -la
         run: ls -la
