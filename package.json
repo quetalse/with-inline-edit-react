@@ -1,6 +1,7 @@
 {
   "name": "with-inline-edit-react",
   "version": "0.1.0",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@babel/preset-env": "^7.15.8",
