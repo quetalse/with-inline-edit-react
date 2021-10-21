@@ -27,13 +27,7 @@ jobs:
       
     - name: ls -la
       run: ls -la
-  
-  deploy:
-    name: Deploy
-    needs: build
-    runs-on: ubuntu-latest
-    
-    steps:
+      
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.5
       with:
