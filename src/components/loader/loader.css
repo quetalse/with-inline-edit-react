@@ -1,0 +1,29 @@
+.loader {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+}
+
+.loader div {
+  animation: loader-curve 0.8s linear infinite;
+  border: 2px solid;
+  border-top-color: transparent;
+  border-radius: 50%;
+  box-sizing: border-box;
+  filter: invert(50%);
+  position: absolute;
+  height: 16px;
+  width: 16px;
+}
+
+@keyframes loader-curve {
+  0% { 
+    transform: rotate(0deg); 
+  }
+  100% { 
+    transform: rotate(360deg); 
+  }
+}
