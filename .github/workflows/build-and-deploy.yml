@@ -2,7 +2,7 @@ name: Deploy_videoplayer_to_GitHub_Pages
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
